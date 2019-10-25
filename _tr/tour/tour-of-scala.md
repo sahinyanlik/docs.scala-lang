@@ -22,10 +22,11 @@ Bu kısa bir eğitimdir ve tüm dili kapsamayacaktır. Eğer dildeki tüm özell
 Scala bir çok paradigmayı genel olarak kullanılan kalıplarla şık, tip-güvenli bir şekilde program yazmanıza yarayan bir dildir. Nesne yönelimli ve fonksiyonel özellikleri içeririr.
 
 ## Scala Nesne Yönelimlidir  ##
-Scala is a pure object-oriented language in the sense that [every value is an object](unified-types.html). Types and behavior of objects are described by [classes](classes.html) and [traits](traits.html). Classes are extended by subclassing and a flexible [mixin-based composition](mixin-class-composition.html) mechanism as a clean replacement for multiple inheritance.
+Scala saf bir nesne-yönelimli programlama dilidir. Bundan dolayı [Her değer objedir](unified-types.html). Tipler ve bunların davranışları [sınıf](classes.html)'da belirlenir. Alt sınfılama için [traitler](traits.html) ve daha esnek yapılar ile [mixin-tabanlı birleştirme](mixin-classes-composition.html) çoklu kalıtım yerine daha temiz bir yapıya geçilmiş olur.
 
-## Scala is functional ##
-Scala is also a functional language in the sense that [every function is a value](unified-types.html). Scala provides a [lightweight syntax](basics.html#functions) for defining anonymous functions, it supports [higher-order functions](higher-order-functions.html), it allows functions to be [nested](nested-functions.html), and supports [currying](multiple-parameter-lists.html). Scala's [case classes](case-classes.html) and its built-in support for [pattern matching](pattern-matching.html) model algebraic types used in many functional programming languages. [Singleton objects](singleton-objects.html) provide a convenient way to group functions that aren't members of a class.
+## Scala Fonksiyoneldirl ##
+Scala ayrıca fonksiyonel bir dildir. Bundan dolayı [her fonksiyon bir değerdir](unified-types.html). Scala isimsi fonksiyon tanımlama için [hafif bir yazım](basic.html#functions)'a sahiptir, ayrıca [üst seviye fonksiyonları](higher-order-functions.html) destekler. Fonksiyonların [iç içe kullanılmasını](nested-functions.html) ve  [tımarlamayı](multiple-parameter-lists) destekler. Scala'nın [case sınıfları](case-classes.html) ve bunların [örüntü eşleme](pattern-matching.html) gibi varsayılanları çoğu fonksiyonel dilde kullanılmaktadır. [Singleton Objeler](singleton-objects.html) bir sınıfa dahil olmayan fonksiyonların gruplanmasını kolaylaştırır. 
+
 
 Furthermore, Scala's notion of pattern matching naturally extends to the [processing of XML data](https://github.com/scala/scala-xml/wiki/XML-Processing) with the help of [right-ignoring sequence patterns](regular-expression-patterns.html), by way of general extension via [extractor objects](extractor-objects.html). In this context, [for comprehensions](for-comprehensions.html) are useful for formulating queries. These features make Scala ideal for developing applications like web services.
 
